@@ -43,7 +43,7 @@ class CalculatorController extends GetxController {
 
       input.value = '';
     } catch (e) {
-      result.value = 'Error';
+      result.value = 'Invalid value';
     }
   }
 }
